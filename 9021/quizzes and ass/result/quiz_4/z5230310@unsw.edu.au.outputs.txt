@@ -1,0 +1,120 @@
+TEST 1 BEGIN
+$ echo 'Think twice' | python3 quiz_4.py
+Enter an Indicator Name: Think twice
+Sorry, either the indicator of interest does not exist or it has no data.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 'Incidence of tuberculosis (per 100,000 people)' | python3 quiz_4.py
+Enter an Indicator Name: Incidence of tuberculosis (per 100,000 people)
+The maximum value is: 1354
+It was reached in these years, for these countries or categories:
+    2007: ['Swaziland']
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 'ARI treatment (% of children under 5 taken to a health provider)' | python3 quiz_4.py
+Enter an Indicator Name: ARI treatment (% of children under 5 taken to a health provider)
+The maximum value is: 99
+It was reached in these years, for these countries or categories:
+    2000: ['Georgia']
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 'Low-birthweight babies (% of births)' | python3 quiz_4.py
+Enter an Indicator Name: Low-birthweight babies (% of births)
+The maximum value is: 35.6
+It was reached in these years, for these countries or categories:
+    2004: ['Bangladesh']
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 'Unmet need for contraception (% of married women ages 15-49)' | python3 quiz_4.py
+Enter an Indicator Name: Unmet need for contraception (% of married women ages 15-49)
+The maximum value is: 55.9
+It was reached in these years, for these countries or categories:
+    2008: ['Oman']
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 'Consumption of iodized salt (% of households)' | python3 quiz_4.py
+Enter an Indicator Name: Consumption of iodized salt (% of households)
+The maximum value is: 100
+It was reached in these years, for these countries or categories:
+    1999: ['Chile']
+    2000: ['St. Kitts and Nevis']
+    2006: ['Bulgaria']
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 'Mortality rate, infant (per 1,000 live births)' | python3 quiz_4.py
+Enter an Indicator Name: Mortality rate, infant (per 1,000 live births)
+The maximum value is: 276.9
+It was reached in these years, for these countries or categories:
+    1963: ['Yemen, Rep.']
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 'Prevalence of overweight, female (% of female adults)' | python3 quiz_4.py
+Enter an Indicator Name: Prevalence of overweight, female (% of female adults)
+The maximum value is: 81
+It was reached in these years, for these countries or categories:
+    2014: ['Palau']
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 'Vitamin A supplementation coverage rate (% of children ages 6-59 months)' | python3 quiz_4.py
+Enter an Indicator Name: Vitamin A supplementation coverage rate (% of children ages 6-59 months)
+The maximum value is: 100
+It was reached in these years, for these countries or categories:
+    1999: ['Benin', 'Cameroon', 'Central African Republic', 'Guinea', 'Korea, Dem. Rep.', 'Mali', 'Mozambique', 'Niger', 'Togo', 'Yemen, Rep.']
+    2001: ['Cameroon', 'Congo, Rep.', 'Ghana', 'Guinea-Bissau', 'Liberia', 'Pakistan', 'Yemen, Rep.']
+    2005: ['Rwanda']
+    2008: ['Burkina Faso', 'Somalia']
+    2009: ['Burkina Faso', 'Mali', 'Togo']
+    2010: ['Benin', 'Burkina Faso', 'Gambia, The', 'Guinea-Bissau', 'Mozambique', 'Sierra Leone', 'Togo']
+    2011: ['Afghanistan', "Cote d'Ivoire", 'Guinea-Bissau', 'Korea, Dem. Rep.', 'Mauritania', 'Mozambique']
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 'Immunization, BCG (% of one-year-old children)' | python3 quiz_4.py
+Enter an Indicator Name: Immunization, BCG (% of one-year-old children)
+The maximum value is: 99
+It was reached in these years, for these countries or categories:
+    1980: ['Brunei Darussalam', 'Bulgaria', 'Cuba', 'Hungary', 'Panama', 'Tonga', 'Tuvalu']
+    1981: ['Brunei Darussalam', 'Bulgaria', 'Hungary']
+    1982: ['Brunei Darussalam', 'Bulgaria', 'Ecuador', 'Hungary']
+    1983: ['Brunei Darussalam', 'Bulgaria', 'Dominica', 'Fiji', 'Hungary', 'Samoa', 'Tuvalu', 'Uruguay']
+    1984: ['Bulgaria', 'Ecuador', 'Hungary']
+    1985: ['Bulgaria', 'Ecuador', 'Fiji', 'Hungary', 'Nicaragua', 'St. Lucia', 'Tonga']
+    1986: ['Argentina', 'Botswana', 'Bulgaria', 'Hungary', 'Nicaragua', 'Sao Tome and Principe', 'Singapore']
+    1987: ['Bulgaria', 'Cabo Verde', 'Hungary', 'Iraq']
+    1988: ['Bulgaria', 'Cabo Verde', 'Colombia', 'Cuba', 'Fiji', 'Finland', 'Hungary', 'Malaysia', 'Monaco', 'Singapore']
+    1989: ['Bulgaria', 'Burundi', 'Cabo Verde', 'Dominica', 'Fiji', 'Hungary', 'Jamaica', 'Kiribati', 'Korea, Dem. Rep.', 'Malaysia', 'Monaco', 'Singapore', 'St. Lucia', 'St. Vincent and the Grenadines', 'Uruguay']
+    1990: ['Algeria', 'Argentina', 'Bhutan', 'Bulgaria', 'China', 'Comoros', 'Dominica', 'Fiji', 'Hungary', 'Korea, Dem. Rep.', 'Malaysia', 'Maldives', 'Monaco', 'Sao Tome and Principe', 'Singapore', 'St. Vincent and the Grenadines', 'Thailand', 'Togo', 'Tonga', 'Uruguay']
+    1991: ['Argentina', 'Bulgaria', 'Cabo Verde', 'Chile', 'Dominica', 'Fiji', 'Finland', 'Honduras', 'Hungary', 'Korea, Dem. Rep.', 'Malaysia', 'Maldives', 'Monaco', 'Romania', 'Sao Tome and Principe', 'Seychelles', 'Singapore', 'St. Vincent and the Grenadines', 'Thailand', 'Tonga', 'Uruguay', 'Vanuatu']
+    1992: ['Argentina', 'Bulgaria', 'Cabo Verde', 'Chile', 'Dominica', 'Ecuador', 'Finland', 'Guinea-Bissau', 'Hungary', 'Iran, Islamic Rep.', 'Korea, Dem. Rep.', 'Libya', 'Malaysia', 'Maldives', 'Qatar', 'Romania', 'Seychelles', 'Singapore', 'St. Lucia', 'St. Vincent and the Grenadines', 'Tanzania', 'Thailand', 'Uruguay']
+    1993: ['Argentina', 'Brunei Darussalam', 'Bulgaria', 'Dominica', 'Ecuador', 'Fiji', 'Finland', 'Hungary', 'Iran, Islamic Rep.', 'Jamaica', 'Korea, Dem. Rep.', 'Libya', 'Morocco', 'Qatar', 'Romania', 'Seychelles', 'Slovenia', 'St. Vincent and the Grenadines', 'Thailand']
+    1994: ['Argentina', 'Brunei Darussalam', 'Chile', 'Colombia', 'Cuba', 'Dominica', 'Ecuador', 'Equatorial Guinea', 'Fiji', 'Finland', 'Gambia, The', 'Honduras', 'Hungary', 'Iran, Islamic Rep.', 'Jamaica', 'Latvia', 'Libya', 'Namibia', 'Romania', 'Seychelles', 'Slovenia', 'St. Lucia', 'St. Vincent and the Grenadines', 'Swaziland', 'Thailand', 'Tonga', 'Uruguay']
+    1995: ['Argentina', 'Brazil', 'Brunei Darussalam', 'Bulgaria', 'Colombia', 'Costa Rica', 'Croatia', 'Cuba', 'Dominica', 'Ecuador', 'El Salvador', 'Equatorial Guinea', 'Estonia', 'Fiji', 'Finland', 'Gambia, The', 'Hungary', 'Latvia', 'Libya', 'Maldives', 'Panama', 'Romania', 'Seychelles', 'Slovenia', 'St. Vincent and the Grenadines', 'Swaziland', 'Tonga', 'Uruguay', 'Uzbekistan']
+    1996: ['Argentina', 'Brazil', 'Brunei Darussalam', 'Chile', 'Colombia', 'Croatia', 'Cuba', 'Dominica', 'Ecuador', 'Equatorial Guinea', 'Estonia', 'Fiji', 'Finland', 'Gambia, The', 'Honduras', 'Hungary', 'Kiribati', 'Kyrgyz Republic', 'Latvia', 'Maldives', 'Mexico', 'Panama', 'Peru', 'Romania', 'Seychelles', 'St. Vincent and the Grenadines', 'Tajikistan', 'Tonga', 'Tuvalu', 'Uruguay']
+    1997: ['Argentina', 'Brazil', 'Brunei Darussalam', 'Cuba', 'Dominica', 'Ecuador', 'Equatorial Guinea', 'Estonia', 'Finland', 'Gambia, The', 'Honduras', 'Hungary', 'Kazakhstan', 'Kiribati', 'Latvia', 'Malawi', 'Maldives', 'Mexico', 'Panama', 'Qatar', 'Romania', 'Samoa', 'Seychelles', 'St. Kitts and Nevis', 'St. Lucia', 'Tajikistan', 'Thailand', 'Tonga', 'Tuvalu', 'Uruguay']
+    1998: ['Argentina', 'Belarus', 'Botswana', 'Brazil', 'Cuba', 'Dominica', 'Egypt, Arab Rep.', 'El Salvador', 'Equatorial Guinea', 'Estonia', 'Finland', 'Gambia, The', 'Hungary', 'Iran, Islamic Rep.', 'Kazakhstan', 'Kenya', 'Latvia', 'Lithuania', 'Malawi', 'Maldives', 'Mexico', 'Monaco', 'Panama', 'Qatar', 'Romania', 'Samoa', 'Seychelles', 'St. Kitts and Nevis', 'St. Vincent and the Grenadines', 'Thailand', 'Tonga', 'Tuvalu', 'Uruguay']
+    1999: ['Argentina', 'Belarus', 'Bosnia and Herzegovina', 'Botswana', 'Brazil', 'Bulgaria', 'Cuba', 'Dominica', 'Dominican Republic', 'Ecuador', 'El Salvador', 'Estonia', 'Finland', 'Hungary', 'Iran, Islamic Rep.', 'Kazakhstan', 'Kyrgyz Republic', 'Latvia', 'Lithuania', 'Malaysia', 'Mexico', 'Moldova', 'Monaco', 'Nicaragua', 'Panama', 'Qatar', 'Romania', 'Samoa', 'Seychelles', 'Singapore', 'Solomon Islands', 'St. Kitts and Nevis', 'St. Lucia', 'St. Vincent and the Grenadines', 'Tonga', 'Turkmenistan', 'Tuvalu', 'Ukraine', 'Uruguay']
+    2000: ['Argentina', 'Belarus', 'Botswana', 'Brazil', 'Brunei Darussalam', 'Cuba', 'Dominica', 'Ecuador', 'El Salvador', 'Estonia', 'Finland', 'Gambia, The', 'Ghana', 'Honduras', 'Hungary', 'Iran, Islamic Rep.', 'Latvia', 'Lithuania', 'Malaysia', 'Maldives', 'Mexico', 'Moldova', 'Panama', 'Qatar', 'Romania', 'Seychelles', 'Singapore', 'Solomon Islands', 'St. Kitts and Nevis', 'St. Vincent and the Grenadines', 'Thailand', 'Turkmenistan', 'Tuvalu', 'Uruguay', 'Venezuela, RB']
+    2001: ['Argentina', 'Belarus', 'Botswana', 'Brazil', 'Brunei Darussalam', 'Cuba', 'Dominica', 'Ecuador', 'Estonia', 'Finland', 'Gambia, The', 'Honduras', 'Hungary', 'Kyrgyz Republic', 'Latvia', 'Libya', 'Lithuania', 'Marshall Islands', 'Mexico', 'Moldova', 'Panama', 'Qatar', 'Romania', 'Seychelles', 'St. Lucia', 'St. Vincent and the Grenadines', 'Thailand', 'Turkmenistan', 'Tuvalu', 'Uruguay']
+    2002: ['Argentina', 'Belarus', 'Botswana', 'Brazil', 'Croatia', 'Cuba', 'Dominica', 'Ecuador', 'Estonia', 'Finland', 'Gambia, The', 'Hungary', 'Kazakhstan', 'Kyrgyz Republic', 'Latvia', 'Libya', 'Lithuania', 'Maldives', 'Mauritania', 'Mexico', 'Moldova', 'Panama', 'Qatar', 'Romania', 'Seychelles', 'Sri Lanka', 'St. Kitts and Nevis', 'Thailand', 'Turkmenistan', 'Tuvalu', 'Uruguay', 'Uzbekistan']
+    2003: ['Argentina', 'Belarus', 'Belize', 'Botswana', 'Brazil', 'Cuba', 'Dominica', 'Ecuador', 'Estonia', 'Gambia, The', 'Hungary', 'Iran, Islamic Rep.', 'Kazakhstan', 'Kyrgyz Republic', 'Libya', 'Lithuania', 'Malaysia', 'Mauritius', 'Mexico', 'Moldova', 'Panama', 'Qatar', 'Romania', 'Sao Tome and Principe', 'Seychelles', 'Singapore', 'Sri Lanka', 'St. Kitts and Nevis', 'Thailand', 'Turkmenistan', 'Tuvalu', 'Uruguay', 'Uzbekistan']
+    2004: ['Argentina', 'Belarus', 'Belize', 'Botswana', 'Brazil', 'Brunei Darussalam', 'Burkina Faso', 'Cabo Verde', 'Cuba', 'Czech Republic', 'Dominica', 'Ecuador', 'Eritrea', 'Estonia', 'Gambia, The', 'Hungary', 'Iran, Islamic Rep.', 'Libya', 'Lithuania', 'Malaysia', 'Mauritius', 'Mexico', 'Moldova', 'Oman', 'Panama', 'Qatar', 'Romania', 'Sao Tome and Principe', 'Seychelles', 'Singapore', 'Solomon Islands', 'Sri Lanka', 'St. Lucia', 'St. Vincent and the Grenadines', 'Thailand', 'Turkmenistan', 'Tuvalu', 'Uruguay', 'Uzbekistan']
+    2005: ['Argentina', 'Belarus', 'Botswana', 'Brazil', 'Burkina Faso', 'Cabo Verde', 'Cuba', 'Czech Republic', 'Ecuador', 'Eritrea', 'Estonia', 'Gambia, The', 'Ghana', 'Hungary', 'Iran, Islamic Rep.', 'Libya', 'Lithuania', 'Macedonia, FYR', 'Malawi', 'Mauritius', 'Mexico', 'Mongolia', 'Panama', 'Qatar', 'Seychelles', 'Sri Lanka', 'St. Kitts and Nevis', 'Thailand', 'Turkmenistan', 'Tuvalu', 'Uruguay']
+    2006: ['Algeria', 'Argentina', 'Belarus', 'Botswana', 'Brazil', 'Brunei Darussalam', 'Burkina Faso', 'Cabo Verde', 'Croatia', 'Cuba', 'Czech Republic', 'Dominica', 'Ecuador', 'Egypt, Arab Rep.', 'Eritrea', 'Estonia', 'Fiji', 'Ghana', 'Hungary', 'Iran, Islamic Rep.', 'Kazakhstan', 'Kyrgyz Republic', 'Libya', 'Lithuania', 'Malawi', 'Maldives', 'Mexico', 'Moldova', 'Oman', 'Paraguay', 'Portugal', 'Qatar', 'Romania', 'Serbia', 'Seychelles', 'Solomon Islands', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Vincent and the Grenadines', 'Thailand', 'Tunisia', 'Turkmenistan', 'Tuvalu', 'Uruguay', 'Uzbekistan']
+    2007: ['Algeria', 'Argentina', 'Belize', 'Botswana', 'Brazil', 'Burkina Faso', 'Cabo Verde', 'Croatia', 'Cuba', 'Czech Republic', 'Ecuador', 'El Salvador', 'Eritrea', 'Fiji', 'Ghana', 'Honduras', 'Hungary', 'Iran, Islamic Rep.', 'Kazakhstan', 'Libya', 'Lithuania', 'Malaysia', 'Mexico', 'Mongolia', 'Oman', 'Romania', 'Seychelles', 'Solomon Islands', 'Sri Lanka', 'St. Lucia', 'Thailand', 'Tunisia', 'Turkmenistan', 'Tuvalu', 'Uruguay', 'Uzbekistan']
+    2008: ['Albania', 'Algeria', 'Argentina', 'Bangladesh', 'Bhutan', 'Botswana', 'Brazil', 'Brunei Darussalam', 'Burkina Faso', 'Burundi', 'Cabo Verde', 'Chile', 'Croatia', 'Cuba', 'Czech Republic', 'El Salvador', 'Fiji', 'Ghana', 'Guatemala', 'Honduras', 'Hungary', 'Iran, Islamic Rep.', 'Kuwait', 'Kyrgyz Republic', 'Libya', 'Lithuania', 'Malaysia', 'Mexico', 'Morocco', 'Oman', 'Romania', 'Samoa', 'Sao Tome and Principe', 'Serbia', 'Seychelles', 'Singapore', 'Solomon Islands', 'Sri Lanka', 'St. Lucia', 'Thailand', 'Tunisia', 'Turkmenistan', 'Tuvalu', 'Uruguay']
+    2009: ['Algeria', 'Argentina', 'Armenia', 'Bangladesh', 'Belize', 'Botswana', 'Brazil', 'Brunei Darussalam', 'Burkina Faso', 'Cabo Verde', 'China', 'Croatia', 'Cuba', 'Dominica', 'Ecuador', 'El Salvador', 'Fiji', 'Ghana', 'Honduras', 'Hungary', 'Iran, Islamic Rep.', 'Kuwait', 'Libya', 'Lithuania', 'Malaysia', 'Maldives', 'Mexico', 'Morocco', 'Oman', 'Panama', 'Romania', 'Rwanda', 'Sao Tome and Principe', 'Singapore', 'Solomon Islands', 'Sri Lanka', 'Thailand', 'Turkmenistan', 'Tuvalu', 'Uruguay', 'Uzbekistan']
+    2010: ['Albania', 'Algeria', 'Argentina', 'Belarus', 'Brazil', 'Burkina Faso', 'Cabo Verde', 'China', 'Cuba', 'Dominica', 'El Salvador', 'Fiji', 'Ghana', 'Guatemala', 'Hungary', 'Iran, Islamic Rep.', 'Japan', 'Kenya', 'Libya', 'Lithuania', 'Malaysia', 'Marshall Islands', 'Mauritius', 'Mongolia', 'Morocco', 'Oman', 'Panama', 'Qatar', 'Romania', 'Rwanda', 'Sao Tome and Principe', 'Serbia', 'Seychelles', 'Singapore', 'Solomon Islands', 'Sri Lanka', 'Tanzania', 'Thailand', 'Turkmenistan', 'Tuvalu', 'Uruguay', 'Uzbekistan', 'Zimbabwe']
+    2011: ['Algeria', 'Argentina', 'Azerbaijan', 'Bangladesh', 'Belarus', 'Bolivia', 'Brazil', 'Burkina Faso', 'Cabo Verde', 'China', 'Croatia', 'Cuba', 'Dominican Republic', 'El Salvador', 'Estonia', 'Fiji', 'Hungary', 'Iran, Islamic Rep.', 'Korea, Rep.', 'Kuwait', 'Libya', 'Malawi', 'Malaysia', 'Mauritius', 'Mexico', 'Mongolia', 'Morocco', 'Oman', 'Panama', 'Romania', 'Rwanda', 'Samoa', 'Sao Tome and Principe', 'Serbia', 'Seychelles', 'Singapore', 'Solomon Islands', 'Sri Lanka', 'St. Kitts and Nevis', 'St. Lucia', 'St. Vincent and the Grenadines', 'Tanzania', 'Thailand', 'Tuvalu', 'Uruguay', 'Uzbekistan']
+    2012: ['Algeria', 'Argentina', 'Bangladesh', 'Bolivia', 'Brazil', 'Brunei Darussalam', 'Cabo Verde', 'Cambodia', 'China', 'Croatia', 'Cuba', 'Dominican Republic', 'El Salvador', 'Fiji', 'Hungary', 'Indonesia', 'Iran, Islamic Rep.', 'Korea, Rep.', 'Libya', 'Malawi', 'Malaysia', 'Maldives', 'Mauritius', 'Mexico', 'Moldova', 'Mongolia', 'Morocco', 'Oman', 'Portugal', 'Romania', 'Rwanda', 'Sao Tome and Principe', 'Saudi Arabia', 'Seychelles', 'Singapore', 'Solomon Islands', 'Sri Lanka', 'St. Lucia', 'Swaziland', 'Tanzania', 'Thailand', 'Tunisia', 'Turkmenistan', 'Tuvalu', 'Uruguay', 'Uzbekistan']
+    2013: ['Albania', 'Algeria', 'Argentina', 'Armenia', 'Bangladesh', 'Belarus', 'Belize', 'Bolivia', 'Brazil', 'Brunei Darussalam', 'China', 'Croatia', 'Cuba', 'Dominican Republic', 'El Salvador', 'Fiji', 'Hungary', 'Iran, Islamic Rep.', 'Korea, Rep.', 'Kuwait', 'Libya', 'Malaysia', 'Maldives', 'Mauritius', 'Mongolia', 'Morocco', 'Oman', 'Portugal', 'Rwanda', 'Saudi Arabia', 'Seychelles', 'Sierra Leone', 'Singapore', 'Solomon Islands', 'Sri Lanka', 'St. Lucia', 'Swaziland', 'Tanzania', 'Thailand', 'Tuvalu', 'Uzbekistan']
+    2014: ['Albania', 'Algeria', 'Argentina', 'Armenia', 'Bangladesh', 'Bhutan', 'Bolivia', 'Brazil', 'Brunei Darussalam', 'Cabo Verde', 'China', 'Cuba', 'Dominican Republic', 'Fiji', 'Ghana', 'Guyana', 'Hungary', 'Iran, Islamic Rep.', 'Korea, Rep.', 'Kuwait', 'Libya', 'Macedonia, FYR', 'Malaysia', 'Maldives', 'Mongolia', 'Morocco', 'Nepal', 'Oman', 'Panama', 'Portugal', 'Rwanda', 'Singapore', 'Solomon Islands', 'Sri Lanka', 'St. Kitts and Nevis', 'Swaziland', 'Tanzania', 'Thailand', 'Turkmenistan', 'Tuvalu', 'Uruguay', 'Uzbekistan', 'Zimbabwe']
+TEST 10 END
+

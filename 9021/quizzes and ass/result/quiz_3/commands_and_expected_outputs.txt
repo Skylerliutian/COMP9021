@@ -1,0 +1,260 @@
+TEST 1 BEGIN
+$ echo '11 1 1' | python3 quiz_3.py
+Enter three integers: 11 1 1
+L_1 is: [1]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 1.
+
+L_2 is: [0]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 0
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo '21 3 2' | python3 quiz_3.py
+Enter three integers: 21 3 2
+L_1 is: [1, 3]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 2.
+
+L_2 is: [1, 1]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 11
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo '31 5 3' | python3 quiz_3.py
+Enter three integers: 31 5 3
+L_1 is: [0, 3, 0]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 3.
+
+L_2 is: [1, 0, 2]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 10
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo '141 6 7' | python3 quiz_3.py
+Enter three integers: 141 6 7
+L_1 is: [4, 6, 0, 4, 6, 3, 1]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 3.
+
+L_2 is: [4, 5, 3, 0, 2, 5, 4]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 42304
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo '251 4 12' | python3 quiz_3.py
+Enter three integers: 251 4 12
+L_1 is: [3, 3, 4, 4, 3, 1, 3, 3, 0, 2, 1, 3]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 6.
+
+L_2 is: [6, 3, 8, 9, 11, 2, 4, 9, 11, 1, 7, 5]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 641152811
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo '361 10 18' | python3 quiz_3.py
+Enter three integers: 361 10 18
+L_1 is: [9, 2, 6, 6, 7, 0, 6, 2, 9, 2, 9, 9, 5, 6, 9, 4, 6, 0]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 4.
+
+L_2 is: [14, 17, 16, 2, 12, 9, 1, 3, 5, 0, 15, 12, 9, 15, 17, 11, 6, 16]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 151112901417166117
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo '471 8 25' | python3 quiz_3.py
+Enter three integers: 471 8 25
+L_1 is: [1, 4, 7, 5, 5, 3, 8, 5, 1, 7, 8, 0, 8, 4, 6, 6, 6, 7, 3, 5, 3, 4, 0, 6, 4]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 5.
+
+L_2 is: [5, 15, 18, 4, 5, 7, 14, 9, 3, 10, 11, 4, 3, 0, 14, 2, 19, 6, 19, 7, 11, 18, 6, 5, 10]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 1521819791011457
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo '581 15 28' | python3 quiz_3.py
+Enter three integers: 581 15 28
+L_1 is: [0, 5, 9, 9, 12, 0, 13, 9, 14, 1, 9, 8, 1, 10, 14, 8, 14, 5, 1, 15, 1, 4, 7, 15, 0, 11, 13, 5]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 5.
+
+L_2 is: [5, 25, 21, 0, 20, 6, 12, 7, 7, 7, 26, 2, 9, 25, 16, 19, 20, 9, 16, 3, 21, 8, 4, 20, 13, 6, 0, 5]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 19305612977
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo '691 7 31' | python3 quiz_3.py
+Enter three integers: 691 7 31
+L_1 is: [2, 2, 1, 7, 4, 5, 3, 4, 5, 1, 4, 5, 7, 5, 2, 0, 2, 2, 3, 5, 1, 4, 6, 4, 2, 2, 1, 5, 4, 0, 5]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 5.
+
+L_2 is: [24, 29, 14, 23, 8, 19, 2, 0, 2, 26, 24, 9, 4, 1, 18, 3, 11, 18, 30, 17, 26, 15, 29, 23, 29, 26, 30, 4, 2, 3, 1]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 48214183012932323
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo '7101 20 34' | python3 quiz_3.py
+Enter three integers: 7101 20 34
+L_1 is: [9, 0, 18, 15, 20, 10, 18, 1, 19, 15, 12, 16, 13, 14, 10, 20, 9, 5, 1, 14, 0, 6, 0, 20, 0, 20, 0, 19, 6, 13, 18, 4, 9, 3]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 3.
+
+L_2 is: [18, 3, 7, 27, 9, 27, 33, 24, 10, 29, 27, 12, 20, 30, 0, 26, 18, 13, 24, 9, 24, 20, 30, 4, 20, 8, 32, 19, 30, 5, 13, 1, 3, 7]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 263232719929527
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo '8111 4 37' | python3 quiz_3.py
+Enter three integers: 8111 4 37
+L_1 is: [3, 4, 4, 3, 2, 3, 3, 4, 3, 3, 1, 4, 1, 1, 4, 4, 4, 3, 4, 3, 1, 0, 0, 2, 4, 0, 2, 4, 3, 2, 0, 1, 2, 2, 2, 4, 0]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 6.
+
+L_2 is: [21, 16, 6, 26, 20, 12, 3, 1, 24, 25, 29, 7, 16, 28, 19, 31, 5, 20, 0, 14, 10, 28, 13, 13, 9, 32, 27, 31, 35, 2, 23, 2, 1, 18, 18, 35, 22]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 2010292632627312
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo '9121 5 40' | python3 quiz_3.py
+Enter three integers: 9121 5 40
+L_1 is: [0, 1, 1, 4, 3, 2, 4, 4, 3, 1, 3, 0, 5, 1, 3, 0, 0, 3, 2, 1, 4, 0, 2, 3, 3, 0, 2, 1, 3, 2, 4, 1, 5, 2, 2, 4, 4, 3, 3, 0]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 5.
+
+L_2 is: [11, 23, 2, 25, 35, 25, 15, 30, 19, 13, 37, 37, 27, 32, 39, 28, 12, 11, 18, 15, 23, 22, 37, 33, 2, 33, 30, 12, 22, 7, 8, 37, 7, 26, 15, 36, 8, 15, 17, 16]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 253326308191528223715
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo '8131 6 43' | python3 quiz_3.py
+Enter three integers: 8131 6 43
+L_1 is: [5, 0, 1, 6, 2, 0, 1, 4, 6, 4, 3, 2, 1, 2, 0, 0, 4, 0, 6, 4, 5, 2, 4, 6, 0, 1, 0, 4, 1, 2, 1, 4, 6, 3, 4, 3, 0, 3, 1, 1, 5, 6, 4]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 4.
+
+L_2 is: [40, 24, 8, 27, 21, 31, 7, 12, 25, 28, 30, 37, 36, 41, 41, 5, 23, 17, 32, 38, 29, 40, 5, 36, 1, 20, 37, 22, 16, 15, 20, 23, 14, 28, 20, 21, 10, 9, 4, 18, 42, 2, 40]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 1832144128252029155312336103020
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo '7141 7 44' | python3 quiz_3.py
+Enter three integers: 7141 7 44
+L_1 is: [4, 4, 1, 5, 2, 3, 1, 0, 6, 2, 2, 0, 1, 4, 5, 6, 5, 7, 1, 6, 6, 7, 1, 4, 5, 5, 5, 6, 1, 1, 1, 6, 7, 3, 5, 7, 6, 1, 2, 3, 0, 7, 4, 0]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 6.
+
+L_2 is: [26, 36, 10, 19, 34, 0, 29, 7, 20, 3, 38, 2, 8, 1, 5, 28, 28, 1, 9, 42, 5, 6, 10, 29, 1, 39, 18, 8, 29, 33, 30, 38, 43, 7, 21, 4, 17, 10, 18, 8, 30, 35, 19, 2]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 3982050261893194219
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo '6151 8 45' | python3 quiz_3.py
+Enter three integers: 6151 8 45
+L_1 is: [8, 1, 1, 8, 4, 8, 5, 6, 4, 5, 6, 6, 8, 2, 3, 0, 6, 5, 7, 3, 4, 4, 2, 4, 3, 6, 5, 3, 3, 5, 5, 0, 6, 4, 6, 2, 3, 8, 8, 2, 3, 8, 3, 7, 1]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 5.
+
+L_2 is: [10, 2, 12, 9, 34, 36, 17, 3, 37, 23, 44, 18, 23, 33, 35, 42, 24, 19, 13, 11, 23, 11, 7, 23, 28, 24, 41, 44, 13, 33, 41, 35, 33, 0, 8, 27, 44, 37, 22, 17, 25, 12, 31, 4, 32]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 171911181333010443233
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo '5161 9 46' | python3 quiz_3.py
+Enter three integers: 5161 9 46
+L_1 is: [4, 9, 5, 3, 6, 9, 6, 4, 0, 0, 6, 8, 3, 5, 0, 5, 8, 6, 1, 4, 2, 1, 9, 9, 1, 0, 8, 5, 6, 8, 9, 3, 4, 2, 5, 5, 3, 1, 8, 6, 1, 5, 2, 7, 8, 1]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 4.
+
+L_2 is: [23, 6, 2, 40, 17, 8, 6, 37, 23, 28, 25, 37, 36, 35, 28, 9, 38, 32, 17, 11, 29, 33, 35, 5, 6, 7, 25, 23, 31, 9, 3, 27, 22, 41, 40, 19, 21, 28, 16, 32, 4, 24, 34, 10, 17, 25]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 3440417322235191137283127235823
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo '4171 5 47' | python3 quiz_3.py
+Enter three integers: 4171 5 47
+L_1 is: [1, 5, 1, 0, 5, 5, 4, 4, 0, 5, 2, 2, 4, 0, 5, 1, 3, 1, 2, 5, 2, 5, 2, 4, 0, 2, 2, 2, 2, 5, 3, 4, 4, 2, 2, 0, 3, 4, 0, 4, 5, 3, 1, 4, 2, 2, 1]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 6.
+
+L_2 is: [9, 29, 17, 41, 32, 7, 37, 45, 25, 10, 27, 46, 30, 8, 14, 35, 27, 23, 3, 27, 9, 30, 21, 3, 25, 13, 38, 40, 29, 15, 26, 1, 40, 19, 45, 4, 16, 33, 39, 23, 7, 33, 43, 8, 39, 31, 44]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 2130263839233413319274074531129153543240
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo '3181 4 48' | python3 quiz_3.py
+Enter three integers: 3181 4 48
+L_1 is: [4, 0, 1, 2, 1, 1, 2, 3, 3, 3, 0, 3, 1, 1, 1, 3, 3, 0, 2, 1, 4, 3, 0, 1, 0, 3, 0, 1, 3, 0, 1, 4, 4, 2, 3, 2, 4, 3, 0, 3, 2, 3, 0, 4, 1, 3, 0, 1]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 6.
+
+L_2 is: [45, 22, 23, 5, 3, 40, 31, 18, 0, 4, 6, 10, 41, 40, 34, 30, 23, 46, 10, 18, 13, 38, 24, 47, 12, 42, 39, 30, 4, 11, 47, 2, 23, 34, 35, 41, 3, 3, 1, 25, 44, 0, 1, 6, 33, 0, 20, 47]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 4620134044333435410450
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo '2191 3 49' | python3 quiz_3.py
+Enter three integers: 2191 3 49
+L_1 is: [1, 2, 1, 2, 0, 1, 2, 3, 3, 3, 2, 2, 1, 1, 3, 2, 3, 2, 1, 0, 3, 1, 3, 3, 2, 0, 0, 1, 1, 1, 1, 3, 0, 2, 1, 0, 3, 0, 2, 2, 0, 3, 3, 2, 2, 1, 1, 1, 1]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 7.
+
+L_2 is: [33, 23, 32, 19, 9, 47, 31, 11, 0, 38, 20, 7, 33, 7, 14, 28, 27, 13, 21, 43, 32, 15, 3, 32, 8, 7, 42, 37, 3, 23, 41, 36, 11, 41, 42, 1, 20, 18, 14, 4, 39, 18, 13, 1, 4, 44, 29, 24, 39]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 472480334118211528319431233211711
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo '1201 2 50' | python3 quiz_3.py
+Enter three integers: 1201 2 50
+L_1 is: [0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 2, 0, 2, 1, 0, 2, 1, 1, 1, 1, 2, 2, 0, 1, 1, 2, 0, 0, 0, 2, 1, 0, 0, 1, 2, 1, 2, 0, 1, 1, 1, 1, 0, 2, 0]
+The length of the longest increasing sequence
+  of members of L_1, possibly wrapping around, is: 6.
+
+L_2 is: [3, 29, 30, 45, 40, 49, 40, 13, 37, 21, 48, 41, 28, 43, 36, 23, 19, 19, 11, 28, 39, 20, 11, 13, 4, 3, 41, 26, 44, 8, 14, 44, 17, 2, 4, 45, 42, 17, 12, 28, 30, 3, 7, 10, 6, 43, 23, 9, 2, 24]
+The maximum integer built from L_2 by jumping
+  as directed by its members, from some starting member
+  and not using any member more than once, is: 298371719284464030143642713431048230
+TEST 20 END
+

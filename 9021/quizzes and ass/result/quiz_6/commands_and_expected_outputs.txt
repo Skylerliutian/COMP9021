@@ -1,0 +1,425 @@
+TEST 1 BEGIN
+$ echo 345 1 | python3 quiz_6.py
+Enter two integers: 345 1
+Here is the grid that has been generated:
+    1 0 0 1 0 0 1 0 1 1
+    1 0 1 0 0 1 0 1 0 1
+    1 1 0 0 1 1 1 0 0 1
+    0 0 1 0 0 0 0 0 1 1
+    1 1 1 1 0 0 0 1 0 1
+    0 1 0 0 0 1 0 0 0 0
+    1 1 1 1 0 0 0 0 1 0
+    0 0 0 0 1 0 0 1 0 0
+    0 1 0 1 1 1 1 0 0 0
+    0 1 1 0 1 0 1 1 0 1
+The largest isosceles triangle has a size of 2
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 355 1 | python3 quiz_6.py
+Enter two integers: 355 1
+Here is the grid that has been generated:
+    0 0 1 1 0 0 0 0 0 1
+    1 1 0 1 1 0 1 1 1 0
+    1 0 1 1 1 0 0 0 0 1
+    0 1 1 0 0 1 0 1 1 1
+    1 1 0 1 1 0 1 0 0 1
+    1 0 1 0 0 1 0 0 0 0
+    0 1 1 0 1 0 0 1 1 1
+    0 0 1 0 1 1 0 1 1 1
+    0 1 1 0 0 0 0 1 1 1
+    1 1 1 1 1 0 0 1 0 0
+The largest isosceles triangle has a size of 2
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 365 1 | python3 quiz_6.py
+Enter two integers: 365 1
+Here is the grid that has been generated:
+    1 0 1 0 1 1 0 0 0 0
+    0 0 1 1 0 1 1 0 0 0
+    1 0 1 0 0 0 1 1 0 0
+    0 0 0 1 1 1 0 1 0 1
+    1 1 0 1 0 0 1 1 1 1
+    0 0 1 0 1 0 1 0 0 1
+    0 1 1 0 1 0 1 1 0 1
+    0 1 0 1 1 1 1 0 0 1
+    1 0 1 1 1 0 1 1 1 0
+    1 0 0 1 0 1 1 0 0 0
+The largest isosceles triangle has a size of 2
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 375 2 | python3 quiz_6.py
+Enter two integers: 375 2
+Here is the grid that has been generated:
+    0 1 0 1 1 0 1 0 1 1
+    0 1 1 1 1 1 1 1 0 0
+    1 0 0 0 1 1 1 1 0 0
+    1 1 0 0 1 0 1 0 1 0
+    0 1 1 1 0 1 0 0 1 1
+    1 1 0 1 1 1 0 1 1 1
+    1 0 0 0 0 1 0 0 0 1
+    1 1 1 1 0 0 1 1 1 0
+    0 0 1 1 1 1 0 1 1 1
+    0 0 1 1 1 1 0 1 1 0
+The largest isosceles triangle has a size of 2
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 385 2 | python3 quiz_6.py
+Enter two integers: 385 2
+Here is the grid that has been generated:
+    0 1 1 1 1 0 1 0 1 1
+    1 1 0 0 1 1 0 0 0 0
+    1 0 1 1 0 0 1 1 0 1
+    1 0 0 1 0 1 0 0 1 1
+    0 1 0 0 1 1 0 1 1 1
+    1 1 1 0 1 1 0 1 1 1
+    1 0 1 1 1 1 1 0 1 0
+    1 0 1 0 1 1 1 1 1 1
+    1 0 0 1 1 0 0 1 0 1
+    1 1 1 1 0 1 0 0 1 1
+The largest isosceles triangle has a size of 3
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 395 2 | python3 quiz_6.py
+Enter two integers: 395 2
+Here is the grid that has been generated:
+    1 1 0 0 1 1 1 0 1 0
+    1 0 1 0 1 1 1 1 1 0
+    0 1 1 1 1 0 1 1 1 1
+    1 1 1 1 1 0 1 0 0 0
+    1 1 0 0 1 0 1 1 0 0
+    0 0 1 1 1 1 0 1 0 1
+    1 1 0 1 0 1 0 1 1 0
+    1 0 1 1 0 1 1 1 0 0
+    1 1 1 1 0 1 0 0 1 0
+    0 1 0 1 1 0 1 0 1 1
+The largest isosceles triangle has a size of 3
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 406 3 | python3 quiz_6.py
+Enter two integers: 406 3
+Here is the grid that has been generated:
+    1 1 1 1 0 1 0 0 1 1
+    0 0 1 1 1 1 0 1 1 1
+    0 0 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 1 0 0 0
+    1 1 1 1 1 0 1 1 1 1
+    1 1 1 0 1 1 0 1 1 0
+    0 0 0 1 0 1 0 1 1 1
+    0 0 1 0 1 1 0 0 1 0
+    0 0 1 1 1 1 0 0 0 1
+    1 1 1 0 1 1 1 1 0 1
+The largest isosceles triangle has a size of 3
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 416 3 | python3 quiz_6.py
+Enter two integers: 416 3
+Here is the grid that has been generated:
+    1 0 1 1 1 0 1 0 1 1
+    1 1 1 0 1 1 0 1 1 0
+    1 1 1 1 1 0 1 1 1 1
+    1 1 0 0 0 1 0 0 0 1
+    1 1 1 1 1 1 1 1 1 1
+    0 1 0 1 1 1 1 1 1 1
+    0 1 1 1 1 1 0 0 1 1
+    1 1 0 1 1 1 1 1 1 0
+    1 1 1 1 1 0 1 1 0 0
+    1 1 1 1 0 1 1 1 1 0
+The largest isosceles triangle has a size of 3
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 426 3 | python3 quiz_6.py
+Enter two integers: 426 3
+Here is the grid that has been generated:
+    1 1 1 0 1 0 1 1 1 0
+    1 1 1 1 1 1 1 0 1 1
+    1 1 1 0 1 1 1 1 1 1
+    1 0 1 0 1 0 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+    0 0 0 1 1 1 0 1 0 1
+    1 1 1 0 0 1 0 1 0 1
+    0 1 1 1 0 0 1 1 0 1
+    1 0 1 1 1 1 1 0 0 1
+    1 1 1 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 3
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 436 3 | python3 quiz_6.py
+Enter two integers: 436 3
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 0 1 0
+    0 1 0 0 0 1 1 1 1 1
+    1 1 1 1 0 1 1 0 1 1
+    0 1 1 1 1 1 1 1 1 1
+    1 1 0 1 1 0 1 0 0 1
+    1 1 1 1 1 1 1 1 1 0
+    1 0 1 0 0 0 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 3
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 446 4 | python3 quiz_6.py
+Enter two integers: 446 4
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    0 1 1 1 0 1 1 1 0 1
+    1 0 1 1 1 0 1 1 1 1
+    1 1 1 1 1 0 1 1 1 1
+    1 1 1 1 1 1 0 1 0 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 0 1 0
+    1 1 0 1 1 1 0 1 1 1
+    0 1 1 1 1 1 1 1 0 1
+    1 1 1 1 1 1 1 0 1 1
+The largest isosceles triangle has a size of 4
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 456 4 | python3 quiz_6.py
+Enter two integers: 456 4
+Here is the grid that has been generated:
+    1 1 1 1 0 1 1 0 1 1
+    0 0 1 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 0
+    1 1 1 1 1 0 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 0 0 0 0 1 1 1 1 1
+    1 0 0 1 1 1 1 1 1 0
+The largest isosceles triangle has a size of 4
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 466 4 | python3 quiz_6.py
+Enter two integers: 466 4
+Here is the grid that has been generated:
+    0 0 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 0
+    1 0 1 1 1 0 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1
+    0 0 1 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 0 1 1 1 0 0
+    1 1 0 0 1 1 1 1 1 1
+The largest isosceles triangle has a size of 5
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 476 5 | python3 quiz_6.py
+Enter two integers: 476 5
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 0 1 1 1
+    1 1 1 0 1 1 0 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    0 1 1 1 0 1 0 1 1 0
+    1 1 1 1 1 0 1 1 1 1
+    0 1 1 1 0 1 1 1 0 1
+    1 1 1 1 1 1 1 0 1 1
+    0 1 0 1 1 0 1 1 1 1
+    1 1 0 1 1 1 0 1 0 1
+The largest isosceles triangle has a size of 4
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 486 5 | python3 quiz_6.py
+Enter two integers: 486 5
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 0 1 0 1 1 1 1 1
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 0 0
+    1 1 1 1 1 0 0 1 0 0
+    1 1 1 0 1 1 1 1 1 0
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 4
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo 496 5 | python3 quiz_6.py
+Enter two integers: 496 5
+Here is the grid that has been generated:
+    1 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    0 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 0 1 1 1
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 0 1 1 1 0 1 0
+    1 1 1 1 1 1 0 1 1 1
+    1 1 0 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 5
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo 507 6 | python3 quiz_6.py
+Enter two integers: 507 6
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 0 1 1
+    1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1
+    0 1 1 0 1 1 1 1 0 1
+    1 1 1 0 1 1 1 1 1 1
+    1 1 0 1 0 1 1 1 0 0
+    0 1 1 1 1 0 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 4
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo 517 6 | python3 quiz_6.py
+Enter two integers: 517 6
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 0
+    0 1 1 1 1 1 1 0 1 1
+    1 1 1 1 0 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 0 1
+    1 0 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    0 1 1 1 0 1 1 0 1 1
+The largest isosceles triangle has a size of 5
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo 527 6 | python3 quiz_6.py
+Enter two integers: 527 6
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 0 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 1
+    1 0 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1
+    0 1 1 1 0 0 0 1 1 1
+    1 1 1 1 1 0 1 1 1 1
+    0 1 1 0 1 0 0 1 1 1
+    1 1 1 1 1 1 0 1 0 1
+    1 1 1 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 4
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo 537 7 | python3 quiz_6.py
+Enter two integers: 537 7
+Here is the grid that has been generated:
+    1 1 1 0 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 1 1
+    1 1 1 0 1 1 0 1 1 1
+    1 1 1 1 1 0 1 1 1 1
+    1 1 1 0 1 1 0 1 1 1
+    1 1 0 0 1 1 0 1 1 1
+    1 1 1 1 1 1 1 1 1 0
+    1 1 1 1 1 0 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 4
+TEST 20 END
+
+TEST 21 BEGIN
+$ echo 547 7 | python3 quiz_6.py
+Enter two integers: 547 7
+Here is the grid that has been generated:
+    0 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 0 1 1
+    1 1 1 1 1 1 1 1 1 1
+    0 1 1 0 1 1 1 1 1 0
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 5
+TEST 21 END
+
+TEST 22 BEGIN
+$ echo 567 7 | python3 quiz_6.py
+Enter two integers: 567 7
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 0 1 1
+    1 0 1 1 1 1 1 1 0 1
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0 0 1
+    1 0 0 0 1 1 0 1 1 1
+    1 1 1 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 0 0 1 1 0 1 1 1
+    1 0 1 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 4
+TEST 22 END
+
+TEST 23 BEGIN
+$ echo 577 8 | python3 quiz_6.py
+Enter two integers: 577 8
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    0 1 0 1 1 1 1 0 1 1
+    1 1 1 1 1 0 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+    1 0 1 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 4
+TEST 23 END
+
+TEST 24 BEGIN
+$ echo 587 8 | python3 quiz_6.py
+Enter two integers: 587 8
+Here is the grid that has been generated:
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 0 1 1 1
+    1 1 0 1 1 1 1 0 1 1
+    1 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 5
+TEST 24 END
+
+TEST 25 BEGIN
+$ echo 599 8 | python3 quiz_6.py
+Enter two integers: 599 8
+Here is the grid that has been generated:
+    0 1 1 1 0 1 1 1 1 0
+    1 1 1 1 1 1 0 1 1 1
+    0 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+    1 1 0 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The largest isosceles triangle has a size of 5
+TEST 25 END
+

@@ -1,0 +1,141 @@
+TEST 1 BEGIN
+$ python3 -c "from quiz_2 import * ; describe_rule(0)"
+The rule encoded by 0 is:  {(0, 0): 0, (0, 1): 0, (1, 0): 0, (1, 1): 0}
+
+After 0 followed by 0, we draw 0
+After 0 followed by 1, we draw 0
+After 1 followed by 0, we draw 0
+After 1 followed by 1, we draw 0
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c "from quiz_2 import * ; describe_rule(5)"
+The rule encoded by 5 is:  {(0, 0): 0, (0, 1): 1, (1, 0): 0, (1, 1): 1}
+
+After 0 followed by 0, we draw 0
+After 0 followed by 1, we draw 1
+After 1 followed by 0, we draw 0
+After 1 followed by 1, we draw 1
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c "from quiz_2 import * ; describe_rule(7)"
+The rule encoded by 7 is:  {(0, 0): 0, (0, 1): 1, (1, 0): 1, (1, 1): 1}
+
+After 0 followed by 0, we draw 0
+After 0 followed by 1, we draw 1
+After 1 followed by 0, we draw 1
+After 1 followed by 1, we draw 1
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c "from quiz_2 import * ; describe_rule(10)"
+The rule encoded by 10 is:  {(0, 0): 1, (0, 1): 0, (1, 0): 1, (1, 1): 0}
+
+After 0 followed by 0, we draw 1
+After 0 followed by 1, we draw 0
+After 1 followed by 0, we draw 1
+After 1 followed by 1, we draw 0
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c "from quiz_2 import * ; describe_rule(15)"
+The rule encoded by 15 is:  {(0, 0): 1, (0, 1): 1, (1, 0): 1, (1, 1): 1}
+
+After 0 followed by 0, we draw 1
+After 0 followed by 1, we draw 1
+After 1 followed by 0, we draw 1
+After 1 followed by 1, we draw 1
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c "from quiz_2 import * ; draw_line(2, 1, 0, 1); draw_line(2, 1, 0, 0); draw_line(2, 1, 0, 2);"
+1
+[]*10
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c "from quiz_2 import * ; draw_line(1, 0, 0, 8)"
+00000000
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c "from quiz_2 import * ; draw_line(0, 0, 1, 9)"
+010000000
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c "from quiz_2 import * ; draw_line(5, 1, 0, 10)"
+1000000000
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c "from quiz_2 import * ; draw_line(6, 1, 1, 11)"
+11011011011
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c "from quiz_2 import * ; draw_line(7, 0, 1, 12)"
+011111111111
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c "from quiz_2 import * ; draw_line(10, 1, 0, 13)"
+1010101010101
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c "from quiz_2 import * ; draw_line(11, 0, 0, 14)"
+00101010101010
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c "from quiz_2 import * ; draw_line(12, 1, 1, 15)"
+110011001100110
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c "from quiz_2 import * ; draw_line(15, 0, 1, 16)"
+0111111111111111
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 -c "from quiz_2 import * ; print((uniquely_produced_by_rule('100110'), uniquely_produced_by_rule('10011')))"
+(12, -1)
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 -c "from quiz_2 import * ; print((uniquely_produced_by_rule('110011'), uniquely_produced_by_rule('11010101')))"
+(12, -1)
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 -c "from quiz_2 import * ; print((uniquely_produced_by_rule('11001100110011001'), uniquely_produced_by_rule('1010101')))"
+(12, -1)
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 -c "from quiz_2 import * ; print((uniquely_produced_by_rule('0011011'), uniquely_produced_by_rule('10110')))"
+(14, -1)
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 -c "from quiz_2 import * ; print((uniquely_produced_by_rule('001101101101101101101'), uniquely_produced_by_rule('001101101101101101111')))"
+(14, -1)
+TEST 20 END
+
+TEST 21 BEGIN
+$ python3 -c "from quiz_2 import * ; print((uniquely_produced_by_rule('011000'), uniquely_produced_by_rule('11000')))"
+(4, -1)
+TEST 21 END
+
+TEST 22 BEGIN
+$ python3 -c "from quiz_2 import * ; print((uniquely_produced_by_rule('0110000000000'), uniquely_produced_by_rule('0110000001100')))"
+(4, -1)
+TEST 22 END
+
+TEST 23 BEGIN
+$ python3 -c "from quiz_2 import * ; print((uniquely_produced_by_rule('011000'), uniquely_produced_by_rule('0000110')))"
+(4, -1)
+TEST 23 END
+

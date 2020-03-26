@@ -1,0 +1,108 @@
+TEST 1 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = {} ; describe_automaton(transitions)"
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = {('a_state', 1): 'a_state'} ; describe_automaton(transitions)"
+When in state "a_state" and processing "1", automaton's state becomes "a_state".
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = {('s0', 0): 's0', ('s0', 1): 's1'} ; describe_automaton(transitions)"
+When in state "s0" and processing "0", automaton's state becomes "s0".
+When in state "s0" and processing "1", automaton's state becomes "s1".
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = {('q_0', 1): 'q_0', ('q_0', 0): 'q_1', ('q_1', 0): 'q_1', ('q_1', 1): 'q_0'} ; describe_automaton(transitions)"
+When in state "q_0" and processing "1", automaton's state becomes "q_0".
+When in state "q_0" and processing "0", automaton's state becomes "q_1".
+When in state "q_1" and processing "0", automaton's state becomes "q_1".
+When in state "q_1" and processing "1", automaton's state becomes "q_0".
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = {('S0', 0): 'S1', ('S1', 0): 'S1', ('S2', 0): 'S1', ('S0', 1): 'S0', ('S1', 1): 'S2', ('S2', 1): 'S0'} ; describe_automaton(transitions)"
+When in state "S0" and processing "0", automaton's state becomes "S1".
+When in state "S1" and processing "0", automaton's state becomes "S1".
+When in state "S2" and processing "0", automaton's state becomes "S1".
+When in state "S0" and processing "1", automaton's state becomes "S0".
+When in state "S1" and processing "1", automaton's state becomes "S2".
+When in state "S2" and processing "1", automaton's state becomes "S0".
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = [] ; print(transitions_as_dict(transitions))"
+{}
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = ['a_state,1:a_state'] ; print(transitions_as_dict(transitions))"
+{('a_state', 1): 'a_state'}
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = ['s0,0:s0', 's0,1:s1'] ; print(transitions_as_dict(transitions))"
+{('s0', 0): 's0', ('s0', 1): 's1'}
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = ['q_0,1:q_0', 'q_0,0:q_1', 'q_1,0:q_1', 'q_1,1:q_0'] ; print(transitions_as_dict(transitions))"
+{('q_0', 1): 'q_0', ('q_0', 0): 'q_1', ('q_1', 0): 'q_1', ('q_1', 1): 'q_0'}
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = ['S0,0:S1', 'S1,0:S2', 'S2,0:S1', 'S0,1:S1', 'S1,1:S2', 'S2,1:S0'] ; print(transitions_as_dict(transitions))"
+{('S0', 0): 'S1', ('S1', 0): 'S2', ('S2', 0): 'S1', ('S0', 1): 'S1', ('S1', 1): 'S2', ('S2', 1): 'S0'}
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = {('q0', 3): 'q1', ('q1', 5): 'q0'} ; print(accepts(transitions, '353535353', 'q0', 'q1') and not accepts(transitions, '3535353535', 'q0', 'q1') and not accepts(transitions, '5353553535', 'q0', 'q1') and accepts(transitions, '35353535353535', 'q0', 'q0') and not accepts(transitions, '353532353', 'q0', 'q0') and not accepts(transitions, '3535353532', 'q0', 'q0'))"
+True
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = {('state_1', 0): 'state_2', ('state_1', 1): 'state_1', ('state_2', 0): 'state_1', ('state_2', 1): 'state_2'} ; print(accepts(transitions, '000000', 'state_1', 'state_1') and not accepts(transitions, '0', 'state_1', 'state_1') and accepts(transitions, '10011011110011011', 'state_1', 'state_1') and not accepts(transitions, '00010011101110', 'state_1', 'state_1') and accepts(transitions, '01010001010111', 'state_1', 'state_2') and not accepts(transitions, '0101010102010', 'state_1', 'state_1'))"
+True
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions =  {('a_state', 1): 'a_state'} ; print(accepts(transitions, '', 'a_state', 'a_state') and accepts(transitions, '1', 'a_state', 'a_state') and accepts(transitions, '1111111', 'a_state', 'a_state') and not accepts(transitions, '0', 'a_state', 'a_state') and not accepts(transitions, '111111110', 'a_state', 'a_state') and not accepts(transitions, '111101', 'a_state', 'a_state'))"
+True
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions =  {('a_state', 1): 'another_state'} ; print(not accepts(transitions, '', 'a_state', 'another_state') and accepts(transitions, '1', 'a_state', 'another_state') and not accepts(transitions, '1111111', 'another_state', 'another_state') and not accepts(transitions, '0', 'a_state', 'another_state') and not accepts(transitions, '111111110', 'another_state', 'another_state') and not accepts(transitions, '111101', 'a_state', 'another_state'))"
+True
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions =  {('s0', 0): 's0', ('s0', 1): 's1'} ; print(not accepts(transitions, '', 's0', 's1') and accepts(transitions, '1', 's0', 's1') and not accepts(transitions, '11', 's0', 's1') and accepts(transitions, '000001', 's0', 's1') and not accepts(transitions, '0000000011', 's0', 's1') and not accepts(transitions, '0000012', 's0', 's1'))"
+True
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions =  {('s0', 0): 's0', ('s0', 1): 's1'} ; print(accepts(transitions, '', 's0', 's0') and not accepts(transitions, '1', 's0', 's0') and not accepts(transitions, '11', 's0', 's0') and not accepts(transitions, '000001', 's0', 's0') and not accepts(transitions, '0000000011', 's0', 's0') and not accepts(transitions, '0000012', 's0', 's0'))"
+True
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions =  {('q_0', 1): 'q_0', ('q_0', 0): 'q_1', ('q_1', 0): 'q_1', ('q_1', 1): 'q_0'} ; print(not accepts(not transitions, '', 'q_0', 'q_1') and not accepts(transitions, '1', 'q_0', 'q_1') and accepts(transitions, '1111001110', 'q_0', 'q_1') and accepts(transitions, '00001001000', 'q_0', 'q_1') and not accepts(transitions, '1111111100000101', 'q_0', 'q_1') and not accepts(transitions, '11110100011', 'q_0', 'q_1'))"
+True
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions =  {('q_0', 1): 'q_0', ('q_0', 0): 'q_1', ('q_1', 0): 'q_1', ('q_1', 1): 'q_0'} ; print(accepts(transitions, '', 'q_0', 'q_0') and accepts(transitions, '1', 'q_0', 'q_0') and not accepts(transitions, '1111001110', 'q_0', 'q_0') and not accepts(transitions, '00001001000', 'q_0', 'q_0') and accepts(transitions, '1111111100000101', 'q_0', 'q_0') and accepts(transitions, '11110100011', 'q_0', 'q_0'))"
+True
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = {('S0', 0): 'S1', ('S1', 0): 'S1', ('S2', 0): 'S1', ('S0', 1): 'S0', ('S1', 1): 'S2', ('S2', 1): 'S0'} ; print(accepts(transitions, '01', 'S0', 'S2') and accepts(transitions, '011101', 'S0', 'S2') and accepts(transitions, '101001010111001', 'S0', 'S2') and not accepts(transitions, '0', 'S0', 'S2') and not accepts(transitions, '010', 'S0', 'S2') and not accepts(transitions, '01010110011', 'S0', 'S2'))"
+True
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 -c "from quiz_1 import * ; transitions = {('S0', 0): 'S1', ('S1', 0): 'S1', ('S2', 0): 'S1', ('S0', 1): 'S0', ('S1', 1): 'S2', ('S2', 1): 'S0'} ; print(not accepts(transitions, '01', 'S0', 'S0') and not accepts(transitions, '011101', 'S0', 'S1') and not accepts(transitions, '101001010111001', 'S0', 'S0') and accepts(transitions, '0', 'S0', 'S1') and not accepts(transitions, '010', 'S0', 'S0') and not accepts(transitions, '01010110011', 'S0', 'S1'))"
+True
+TEST 20 END
+
